@@ -1,5 +1,7 @@
 package com.example.demo.controller;
 
+import java.io.IOException;
+
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -44,6 +46,24 @@ public class HomeController {
     public String ex5(){
         // will be catched by controller exception hnadler handler method nfeHandler
         throw new NumberFormatException("number format exception");
+    }
+    
+    @RequestMapping("/ex6")
+    public String ex6() throws CloneNotSupportedException {
+    	// will be catched by controller exception hnadler handler method nfeHandler
+    	throw new CloneNotSupportedException("Clone Not Supported Exception !!");
+    }
+    
+    @RequestMapping("/ex8")
+    public String ex8() {
+    	// will be catched by controller exception hnadler handler method nfeHandler
+    	throw new ArrayIndexOutOfBoundsException("Array Index Out Of Bounds Exception");
+    }
+    
+    @RequestMapping("/ex7")
+    public String ex7() throws IOException{
+    	// will be catched by controller exception hnadler handler method nfeHandler
+    	throw new IOException("IO Exception !!");
     }
 
     /**

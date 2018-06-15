@@ -24,6 +24,9 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(value = Exception.class)
     public String handleException(Exception e){return e.getMessage();}
+    
+    @ExceptionHandler(value = RuntimeException.class)
+    public String handleRuntimeException(RuntimeException e){return e.getMessage();}
 
 
 }
