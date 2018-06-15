@@ -1,8 +1,8 @@
 package com.example.demo.exception;
 
 /**
- * @author ekansh
- * @since 19/2/16
+ * @author 
+ * @since 
  */
 public class BaseException extends RuntimeException {
 

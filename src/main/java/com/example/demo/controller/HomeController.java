@@ -9,8 +9,8 @@ import com.example.demo.exception.CustomException1;
 import com.example.demo.exception.CustomException2;
 
 /**
- * @author ekansh
- * @since 19/2/16
+ * @author 
+ * @since 
  */
 @RestController
 @RequestMapping({"","/"})

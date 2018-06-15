@@ -1,8 +1,8 @@
 package com.example.demo.util.messages.error;
 
 /**
- * @author ekansh
- * @since 19/2/16
+ * @author 
+ * @since 
  */
 public interface ErrorCodes {
 

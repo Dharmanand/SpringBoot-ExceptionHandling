@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.exception.BaseException;
 
 /**
- * @author ekansh
- * @since 19/2/16
+ * @author 
+ * @since 
  */
 @ControllerAdvice
 @RestController
